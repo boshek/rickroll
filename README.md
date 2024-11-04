@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/boshek/rickroll/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/boshek/rickroll/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of rickroll is to …
@@ -28,7 +29,7 @@ library(rickroll)
 lib_summary()
 #>                                                                                        Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library
-#> 2 /private/var/folders/gf/h33wyp0d1c57rpx_cx64m8f80000gn/T/RtmpUgM6Py/temp_libpath140652859b0e
+#> 2 /private/var/folders/gf/h33wyp0d1c57rpx_cx64m8f80000gn/T/RtmpUgM6Py/temp_libpath14063f5a63f7
 #> 3                                                 /Users/samalbers/Library/R/arm64/4.4/library
 #>   n_packages
 #> 1         29

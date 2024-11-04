@@ -9,7 +9,7 @@ test_that("lib_summary returns expected results", {
 
 
 test_that("lib_summary fails appropriately", {
-  expect_error(lib_summary(sizes = "foo"), "'sizes' must be logical")
+  expect_error(lib_summary(sizes = "foo"), "argument is not interpretable as logical")
 })
 
 test_that("sizes argument works", {
