@@ -9,7 +9,7 @@ test_that("lib_summary returns expected results", {
 
 
 test_that("lib_summary fails appropriately", {
-  expect_error(lib_summary(sizes = "foo"))
+  expect_error(lib_summary(sizes = "foo"), regexp = "sizes should be a logical \\(TRUE/FALSE\\) value")
 })
 
 test_that("sizes argument works correctly", {
