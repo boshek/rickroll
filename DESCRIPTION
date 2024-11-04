@@ -13,3 +13,6 @@ BugReports: https://github.com/boshek/rickroll/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports: 
+    fs,
+    purrr
