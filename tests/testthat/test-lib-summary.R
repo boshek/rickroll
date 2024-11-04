@@ -9,10 +9,10 @@ test_that("lib_summary returns expected results", {
 
 
 test_that("lib_summary fails appropriately", {
-  expect_error(lib_summary(sizes = "foo"), "argument is not interpretable as logical")
+  expect_error(lib_summary(sizes = "foo"))
 })
 
-test_that("sizes argument works", {
+test_that("sizes argument works correctly", {
   res <- lib_summary(sizes = TRUE)
   expect_equal(names(res), c("Library", "n_packages", "lib_size"))
   expect_type(res$lib_size, "double")

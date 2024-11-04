@@ -17,7 +17,3 @@ libraries. A \code{lib_size} column is included if \code{sizes = TRUE}.
 \description{
 Provides a brief summary of the package libraries on your machine
 }
-\examples{
-lib_summary()
-lib_summary(sizes = TRUE)
-}
